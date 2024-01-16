@@ -1,3 +1,23 @@
 # Request Header Parser Microservice
 
-This is the boilerplate for the Request Header Parser Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/request-header-parser-microservice
+This API provides a system details endpoint which print out the IP address, Language and Software type
+
+## Usage
+
+### Endpoint
+
+GET /api/whoami
+
+### Example
+
+#### Request / Response
+
+```bash
+ https://your-app-url/api/whoami
+
+{
+  "ipaddress": "0.0.0.0",
+  "language": "en-GB,en-US;q=0.9,en;q=0.8",
+  "software": "software details"
+}
+
